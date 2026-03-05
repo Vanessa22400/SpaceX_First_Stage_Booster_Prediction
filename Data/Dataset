@@ -1,0 +1,15 @@
+## SpaceX REST API
+Data was retrieved using API requests from:
+
+https://api.spacexdata.com/v4/rockets/
+https://api.spacexdata.com/v4/launchpads/
+https://api.spacexdata.com/v4/payloads/
+These endpoints provide structured information about rockets, launchpads and payloads.
+
+## Web Scraping (Wikipedia)
+Additional historical launch information was collected through web scraping from:
+
+https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
+
+HTML tables were parsed using BeautifulSoup and transformed into structured tabular format.
+
